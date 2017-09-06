@@ -1,0 +1,582 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Aceptar.Text" xml:space="preserve">
+    <value>Activar</value>
+  </data>
+  <data name="Activar.Text" xml:space="preserve">
+    <value>Configurar solicitud</value>
+  </data>
+  <data name="Cancelar.Text" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="Compania.Text" xml:space="preserve">
+    <value>Compañia</value>
+  </data>
+  <data name="ConfigurarActivacion.Text" xml:space="preserve">
+    <value>Configuración</value>
+  </data>
+  <data name="ContratoPadre.Text" xml:space="preserve">
+    <value>Contrato padre</value>
+  </data>
+  <data name="Email.Text" xml:space="preserve">
+    <value>Correo electrónico</value>
+  </data>
+  <data name="Emisor.Text" xml:space="preserve">
+    <value>Emision</value>
+  </data>
+  <data name="EnConstruccion.Text" xml:space="preserve">
+    <value>Esta página se encuentra en construcción</value>
+  </data>
+  <data name="features.Text" xml:space="preserve">
+    <value>Tipo usuario</value>
+  </data>
+  <data name="Informacion.Text" xml:space="preserve">
+    <value>Dashboard</value>
+  </data>
+  <data name="IniciarConfiguracion.Text" xml:space="preserve">
+    <value>Iniciar configuración</value>
+  </data>
+  <data name="IrConsultaDocumentos.Text" xml:space="preserve">
+    <value>Ir a la consulta de documentos</value>
+  </data>
+  <data name="IsComputerInvoice.Text" xml:space="preserve">
+    <value>Tengo resolución de facturación por computador</value>
+  </data>
+  <data name="IsElectronicInvoice.Text" xml:space="preserve">
+    <value>Tengo resolución de facturación electrónica</value>
+  </data>
+  <data name="Issuer.Text" xml:space="preserve">
+    <value>Emisor</value>
+  </data>
+  <data name="MsgConfirm.Text" xml:space="preserve">
+    <value>Recuerda regresar al asistente de configuración para terminar el proceso. Mientras tanto podras ver la consulta de documentos y otras funcionalidades.</value>
+  </data>
+  <data name="MsgEmisor.Text" xml:space="preserve">
+    <value>Bienvenido a su plataforma de facturación. Ahora que te has registrado, estás a un paso de poder emitir tus facturas. Ingresa los datos básicos de tu empresa y la información que corresponde a la resolución de facturación designada por la DIAN.</value>
+  </data>
+  <data name="MsgReceptor.Text" xml:space="preserve">
+    <value>Bienvenido a su plataforma de facturación. Ahora que te has registrado, podrás acceder a las facturas que te han generado. La consulta de documento sera tu principal herramienta para administrar tus facturas y otros documentos.</value>
+  </data>
+  <data name="NITContrato.Text" xml:space="preserve">
+    <value>NIT</value>
+  </data>
+  <data name="NITIdentificacion.Text" xml:space="preserve">
+    <value>No. de identificación</value>
+  </data>
+  <data name="Nodata.Text" xml:space="preserve">
+    <value>No hay registros para mostrar.</value>
+  </data>
+  <data name="Nombre.Text" xml:space="preserve">
+    <value>Nombre</value>
+  </data>
+  <data name="Of.Text" xml:space="preserve">
+    <value>de</value>
+  </data>
+  <data name="OtroMomento.Text" xml:space="preserve">
+    <value>En otro momento</value>
+  </data>
+  <data name="Page.Text" xml:space="preserve">
+    <value>Página</value>
+  </data>
+  <data name="Persona.Text" xml:space="preserve">
+    <value>Persona</value>
+  </data>
+  <data name="RazonSocial.Text" xml:space="preserve">
+    <value>Razón social</value>
+  </data>
+  <data name="Receiver.Text" xml:space="preserve">
+    <value>Receptor</value>
+  </data>
+  <data name="Receptor.Text" xml:space="preserve">
+    <value>Receptor</value>
+  </data>
+  <data name="RecordPage.Text" xml:space="preserve">
+    <value>Filas por página</value>
+  </data>
+  <data name="Required.Text" xml:space="preserve">
+    <value>Los campos marcados en rojo deben ser verificados.</value>
+  </data>
+  <data name="Retailer.Text" xml:space="preserve">
+    <value>Distribuidor</value>
+  </data>
+  <data name="Seleccione.Text" xml:space="preserve">
+    <value>Seleccione</value>
+  </data>
+  <data name="Success.Text" xml:space="preserve">
+    <value>Usuario activado exitosamente.</value>
+  </data>
+  <data name="Telefono.Text" xml:space="preserve">
+    <value>Teléfono</value>
+  </data>
+  <data name="Tipopersona.Text" xml:space="preserve">
+    <value>Tipo persona</value>
+  </data>
+  <data name="Tipousuario.Text" xml:space="preserve">
+    <value>Tipo de usuario</value>
+  </data>
+  <data name="Title.Text" xml:space="preserve">
+    <value>Administración de solicitudes</value>
+  </data>
+  <data name="Token.Text" xml:space="preserve">
+    <value>Token</value>
+  </data>
+  <data name="ContratoHint.Text" xml:space="preserve">
+    <value>La busqueda se realiza desde el cuarto caracter ingresado</value>
+  </data>
+  <data name="tipoidentificacion.Text" xml:space="preserve">
+    <value>Tipo identificación</value>
+  </data>
+  <data name="ActualizacionRecurso.Text" xml:space="preserve">
+    <value>Actualización de recurso</value>
+  </data>
+  <data name="recursoAutenticacion.Text" xml:space="preserve">
+    <value>Recurso de autenticación</value>
+  </data>
+  <data name="esPush.Text" xml:space="preserve">
+    <value>¿Es contrato PUSH?</value>
+  </data>
+  <data name="host.Text" xml:space="preserve">
+    <value>Host</value>
+  </data>
+  <data name="puerto.Text" xml:space="preserve">
+    <value>Puerto</value>
+  </data>
+  <data name="Agregar.Text" xml:space="preserve">
+    <value>Agregar cabecera</value>
+  </data>
+  <data name="AWSSignature.Text" xml:space="preserve">
+    <value>AWS Signature</value>
+  </data>
+  <data name="BasicAuth.Text" xml:space="preserve">
+    <value>Basic Auth</value>
+  </data>
+  <data name="BATCH.Text" xml:space="preserve">
+    <value>BATCH</value>
+  </data>
+  <data name="DELETE.Text" xml:space="preserve">
+    <value>DELETE</value>
+  </data>
+  <data name="DigestAuth.Text" xml:space="preserve">
+    <value>Digest Auth</value>
+  </data>
+  <data name="GET.Text" xml:space="preserve">
+    <value>GET</value>
+  </data>
+  <data name="HawkAuth.Text" xml:space="preserve">
+    <value>Hawk Authentication</value>
+  </data>
+  <data name="hostExample.Text" xml:space="preserve">
+    <value>https://xxxxxxxxxx.xxxxxxxx.xxx</value>
+  </data>
+  <data name="JWT.Text" xml:space="preserve">
+    <value>JWT</value>
+  </data>
+  <data name="key.Text" xml:space="preserve">
+    <value>Cabecera</value>
+  </data>
+  <data name="metodoAutenticacion.Text" xml:space="preserve">
+    <value>Método de autenticación</value>
+  </data>
+  <data name="NoAuth.Text" xml:space="preserve">
+    <value>No Auth</value>
+  </data>
+  <data name="OAuth10.Text" xml:space="preserve">
+    <value>OAuth 1.0</value>
+  </data>
+  <data name="OAuth20.Text" xml:space="preserve">
+    <value>OAuth 2.0</value>
+  </data>
+  <data name="password.Text" xml:space="preserve">
+    <value>Contraseña</value>
+  </data>
+  <data name="peticionAutenticacion.Text" xml:space="preserve">
+    <value>Petición de autenticación</value>
+  </data>
+  <data name="peticionUpdate.Text" xml:space="preserve">
+    <value>Petición de actualización</value>
+  </data>
+  <data name="portExample.Text" xml:space="preserve">
+    <value>####</value>
+  </data>
+  <data name="POST.Text" xml:space="preserve">
+    <value>POST</value>
+  </data>
+  <data name="probarConexion.Text" xml:space="preserve">
+    <value>Probar conexión</value>
+  </data>
+  <data name="PUT.Text" xml:space="preserve">
+    <value>PUT</value>
+  </data>
+  <data name="Remover.Text" xml:space="preserve">
+    <value>Remover cabecera</value>
+  </data>
+  <data name="Scheduling.Text" xml:space="preserve">
+    <value>Programación</value>
+  </data>
+  <data name="Inmediate.Text" xml:space="preserve">
+    <value>Inmediate</value>
+  </data>
+  <data name="stacklimit.Text" xml:space="preserve">
+    <value>Límite de pila (Mensajes)</value>
+  </data>
+  <data name="timelimit.Text" xml:space="preserve">
+    <value>Tiempo límite (Segundos)</value>
+  </data>
+  <data name="usuario.Text" xml:space="preserve">
+    <value>Usuario</value>
+  </data>
+  <data name="value.Text" xml:space="preserve">
+    <value>Valor</value>
+  </data>
+  <data name="conexionNoOk.Text" xml:space="preserve">
+    <value>La conexión debe realizarse para activar un contrato PUSH</value>
+  </data>
+  <data name="conexionDone.Text" xml:space="preserve">
+    <value>Conexión exitosa</value>
+  </data>
+  <data name="AccountId.Text" xml:space="preserve">
+    <value>Account Id</value>
+  </data>
+  <data name="DireccionServidor.Text" xml:space="preserve">
+    <value>Dirección del servidor</value>
+  </data>
+  <data name="ERP.Text" xml:space="preserve">
+    <value>ERP</value>
+  </data>
+  <data name="OFE.Text" xml:space="preserve">
+    <value>OFE</value>
+  </data>
+  <data name="PUSH.Text" xml:space="preserve">
+    <value>PUSH</value>
+  </data>
+  <data name="SecretAccessKey.Text" xml:space="preserve">
+    <value>Secret Access Key</value>
+  </data>
+  <data name="ActivarCaracteristica.Text" xml:space="preserve">
+    <value>Activar característica</value>
+  </data>
+  <data name="ActivarEmision.Text" xml:space="preserve">
+    <value>Puede realizar emision de documentos electronicos</value>
+  </data>
+  <data name="ActivarRecepcion.Text" xml:space="preserve">
+    <value>Recibe documentos electronicos emitodos</value>
+  </data>
+  <data name="Cancel.Text" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="ConfirmarDescarteOFE.Text" xml:space="preserve">
+    <value>La activación de esta característica descartará la configuración las pestaña OFE, ¿Desea continuar?</value>
+  </data>
+  <data name="ConfirmarDescartePentañas.Text" xml:space="preserve">
+    <value>La activación de esta característica descartará la configuración de las otras pestañas, ¿Desea continuar?</value>
+  </data>
+  <data name="ConfirmTitle.Text" xml:space="preserve">
+    <value>Confirmación</value>
+  </data>
+  <data name="confRequired.Text" xml:space="preserve">
+    <value>Debe configurar por lo menos una característica.</value>
+  </data>
+  <data name="FacturadorElectronico.Text" xml:space="preserve">
+    <value>Facturador electrónico</value>
+  </data>
+  <data name="IsPush.Text" xml:space="preserve">
+    <value>¿Es contrato push?</value>
+  </data>
+  <data name="Ok.Text" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="Plan.Text" xml:space="preserve">
+    <value>Plan</value>
+  </data>
+  <data name="plan1.Text" xml:space="preserve">
+    <value>Plan estándar 1</value>
+  </data>
+  <data name="plan2.Text" xml:space="preserve">
+    <value>Plan estándar 2</value>
+  </data>
+  <data name="plan3.Text" xml:space="preserve">
+    <value>Plan estándar 3</value>
+  </data>
+  <data name="plan4.Text" xml:space="preserve">
+    <value>Plan DocumentDb</value>
+  </data>
+  <data name="WebService.Text" xml:space="preserve">
+    <value>Web service</value>
+  </data>
+  <data name="Comercial.Text" xml:space="preserve">
+    <value>Comercial</value>
+  </data>
+  <data name="URLErrorHint.Text" xml:space="preserve">
+    <value>La URL ingresada no es válida.</value>
+  </data>
+  <data name="ActivateStamper.Text" xml:space="preserve">
+    <value>Los documentos emitidos seran estampados </value>
+  </data>
+  <data name="DatosEstampadora.Text" xml:space="preserve">
+    <value>Estampadora </value>
+  </data>
+  <data name="PlansAndServices.Text" xml:space="preserve">
+    <value>Planes y Servicios</value>
+  </data>
+  <data name="DatosPush.Text" xml:space="preserve">
+    <value>Push</value>
+  </data>
+  <data name="Url.Text" xml:space="preserve">
+    <value>Url</value>
+  </data>
+  <data name="User.Text" xml:space="preserve">
+    <value>Usuario</value>
+  </data>
+  <data name="Activo.Text" xml:space="preserve">
+    <value>Activo</value>
+  </data>
+  <data name="Cartera.Text" xml:space="preserve">
+    <value>Cartera</value>
+  </data>
+  <data name="Desactivado.Text" xml:space="preserve">
+    <value>Desactivado</value>
+  </data>
+  <data name="PadreInfo.Text" xml:space="preserve">
+    <value>Selecciones el contrato padre</value>
+  </data>
+  <data name="ActivarERP.Text" xml:space="preserve">
+    <value>Un contrato se activa como ERP</value>
+  </data>
+  <data name="ActivarOFE.Text" xml:space="preserve">
+    <value>Un contrato se activa como operador de facturacion electronica</value>
+  </data>
+  <data name="Buscar.Text" xml:space="preserve">
+    <value>Buscar</value>
+  </data>
+  <data name="Limpiar.Text" xml:space="preserve">
+    <value>Limpiar</value>
+  </data>
+  <data name="CC.Text" xml:space="preserve">
+    <value>Cedula de ciudadania </value>
+  </data>
+  <data name="NIT.Text" xml:space="preserve">
+    <value>NIT</value>
+  </data>
+  <data name="ConfirmarDesctivarEmisor.Text" xml:space="preserve">
+    <value>La desactivacion de esta característica descartará la configuración(es) de {0}, ¿Desea continuar?</value>
+  </data>
+  <data name="ActivarArchivoPlano.Text" xml:space="preserve">
+    <value>Emitir documentos por archivo plano</value>
+  </data>
+  <data name="ActivarCartera.Text" xml:space="preserve">
+    <value>Puede ver la opcion de cartera</value>
+  </data>
+  <data name="ActivarPlan.Text" xml:space="preserve">
+    <value>Se selecciona el plan sobre el cual va a trabajar</value>
+  </data>
+  <data name="ArchivoPlano.Text" xml:space="preserve">
+    <value>Archivo plano</value>
+  </data>
+  <data name="Padre.Text" xml:space="preserve">
+    <value>Contrato padre</value>
+  </data>
+  <data name="ArchivoPlanoInfo.Text" xml:space="preserve">
+    <value>Seleccione el tipo de de documento al cual se le configurara la emisión de archivo plano</value>
+  </data>
+  <data name="detail.Text" xml:space="preserve">
+    <value>Detalle</value>
+  </data>
+  <data name="ConfiguracionAdd.Text" xml:space="preserve">
+    <value>Agregar configuracion del archivo plano.</value>
+  </data>
+  <data name="fileSizeKB.Text" xml:space="preserve">
+    <value>Tamaño del archivo </value>
+  </data>
+  <data name="FileTypes.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Headers.Text" xml:space="preserve">
+    <value>Cabecera</value>
+  </data>
+  <data name="separators.Text" xml:space="preserve">
+    <value>Separadores</value>
+  </data>
+  <data name="dataTypes.Text" xml:space="preserve">
+    <value>Tipos de datos</value>
+  </data>
+  <data name="Description.Text" xml:space="preserve">
+    <value>Descripción</value>
+  </data>
+  <data name="Exist.Text" xml:space="preserve">
+    <value>Elemento ya existe agregar otra configuracion</value>
+  </data>
+  <data name="extensions.Text" xml:space="preserve">
+    <value>Extensiones</value>
+  </data>
+  <data name="fileName.Text" xml:space="preserve">
+    <value>Nombre del archivo</value>
+  </data>
+  <data name="fileSizeKBInfo.Text" xml:space="preserve">
+    <value>KB</value>
+  </data>
+  <data name="ignoreBlankLines.Text" xml:space="preserve">
+    <value>Ignore lineas en blanco</value>
+  </data>
+  <data name="No.Text" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="property.Text" xml:space="preserve">
+    <value>Propiedad</value>
+  </data>
+  <data name="RequiredInfo.Text" xml:space="preserve">
+    <value>Requerido</value>
+  </data>
+  <data name="trimWhiteSpace.Text" xml:space="preserve">
+    <value>Remover espacios en blanco </value>
+  </data>
+  <data name="validar.Text" xml:space="preserve">
+    <value>Validación </value>
+  </data>
+  <data name="validarInfo.Text" xml:space="preserve">
+    <value>\\d{4}(?:-\\d{1,2}){2}</value>
+  </data>
+  <data name="validarMessage.Text" xml:space="preserve">
+    <value>Mensaje validacion</value>
+  </data>
+  <data name="validarMessageInfo.Text" xml:space="preserve">
+    <value>Fecha esperada yyyy-MM-dd</value>
+  </data>
+  <data name="Yes.Text" xml:space="preserve">
+    <value>Si</value>
+  </data>
+  <data name="Next.text" xml:space="preserve">
+    <value>Siguiente</value>
+  </data>
+  <data name="confRequiredFlatFle.Text" xml:space="preserve">
+    <value>Debe configurar por lo menos una característica de archivo plano </value>
+  </data>
+  <data name="RemoveConfig.Text" xml:space="preserve">
+    <value>Remover configuración</value>
+  </data>
+  <data name="TipoPLANPOS.Text" xml:space="preserve">
+    <value>POSPAGO</value>
+  </data>
+  <data name="TipoPlanPRE.Text" xml:space="preserve">
+    <value>PREPAGO</value>
+  </data>
+  <data name="Estampadora.Text" xml:space="preserve">
+    <value>Estampa de tiempo</value>
+  </data>
+</root>

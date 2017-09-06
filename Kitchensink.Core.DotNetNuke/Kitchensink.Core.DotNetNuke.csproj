@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{34613FEE-729D-44BA-99D4-156B782D2276}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Kitchensink.Core.DotNetNuke</RootNamespace>
+    <AssemblyName>Kitchensink.Core.DotNetNuke</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DotNetNuke, Version=9.1.1.129, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\DotNetNuke.Core.9.1.1.129\lib\net40\DotNetNuke.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DotNetNuke.Web.Client, Version=9.1.1.129, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\DotNetNuke.Web.Client.9.1.1.129\lib\net40\DotNetNuke.Web.Client.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ApplicationBlocks.Data, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\DotNetNuke.Core.9.1.1.129\lib\net40\Microsoft.ApplicationBlocks.Data.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\..\..\Lib\Json\Newtonsoft.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Base\BaseController.cs" />
+    <Compile Include="Base\CurrentUser.cs" />
+    <Compile Include="Base\CurrentUserPropertyAccess.cs" />
+    <Compile Include="Base\IsInRoleDto.cs" />
+    <Compile Include="Base\IsInRolePropertyAccess.cs" />
+    <Compile Include="Base\JSScriptDto.cs" />
+    <Compile Include="Base\JSScriptPropertyAccess.cs" />
+    <Compile Include="Base\ModuleLocalizationDto.cs" />
+    <Compile Include="Base\ModuleLocalizationPropertyAccess.cs" />
+    <Compile Include="Base\NavigateToUrlDto.cs" />
+    <Compile Include="Base\NavigateToUrlPropertyAccess.cs" />
+    <Compile Include="Base\ProfileDto.cs" />
+    <Compile Include="Base\ProfilePropertyAccess.cs" />
+    <Compile Include="Base\SessionDto.cs" />
+    <Compile Include="Base\SettingConfigDto.cs" />
+    <Compile Include="Base\SessionPropertyAccess.cs" />
+    <Compile Include="Base\SettingConfigPropertyAccess.cs" />
+    <Compile Include="Base\StylesheetDto.cs" />
+    <Compile Include="Base\StylesheetPropertyAccess.cs" />
+    <Compile Include="Base\UserDto.cs" />
+    <Compile Include="Extensions\PortalExtensions.cs" />
+    <Compile Include="Extensions\UserInfoExtensions.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

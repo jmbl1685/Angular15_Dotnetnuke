@@ -1,0 +1,9 @@
+C:\Users\jgarcia\Desktop\Angular_DNN\Facture.Core.DotNetNuke\bin\Facture.Core.DotNetNuke.dll
+C:\Users\jgarcia\Desktop\Angular_DNN\Facture.Core.DotNetNuke\bin\Facture.Core.DotNetNuke.pdb
+C:\Users\jgarcia\Desktop\Angular_DNN\Facture.Core.DotNetNuke\bin\DotNetNuke.dll
+C:\Users\jgarcia\Desktop\Angular_DNN\Facture.Core.DotNetNuke\bin\DotNetNuke.Web.Client.dll
+C:\Users\jgarcia\Desktop\Angular_DNN\Facture.Core.DotNetNuke\bin\Microsoft.ApplicationBlocks.Data.dll
+C:\Users\jgarcia\Desktop\Angular_DNN\Facture.Core.DotNetNuke\bin\DotNetNuke.pdb
+C:\Users\jgarcia\Desktop\Angular_DNN\Facture.Core.DotNetNuke\bin\DotNetNuke.Web.Client.pdb
+C:\Users\jgarcia\Desktop\Angular_DNN\Facture.Core.DotNetNuke\obj\Debug\Facture.Core.DotNetNuke.dll
+C:\Users\jgarcia\Desktop\Angular_DNN\Facture.Core.DotNetNuke\obj\Debug\Facture.Core.DotNetNuke.pdb

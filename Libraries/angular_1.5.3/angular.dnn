@@ -1,0 +1,302 @@
+<dotnetnuke type="Package" version="5.0">
+  <packages>
+    <package name="angular" type="JavaScript_Library" version="1.5.3">
+      <friendlyName>Angular JavaScript Library</friendlyName>
+      <description><![CDATA[AngularJS lets you write client-side web applications as if you had a smarter browser. It automatically synchronizes data from your UI (view) with your JavaScript objects (model) through 2-way data binding. To help you structure your application better and make it easy to test, AngularJS teaches the browser how to do dependency injection and inversion of control.]]></description>
+      <owner>
+        <name>Google Inc.</name>
+        <organization>Google Inc.</organization>
+        <url>https://github.com/angular/angular.js</url>
+        <email>support@engagesoftware.com</email>
+      </owner>
+      <license src="LICENSE.htm" />
+      <releaseNotes src="CHANGES.htm" />
+      <azureCompatible>true</azureCompatible>
+      <dependencies>
+      <!--
+        <dependency type="managedPackage" version="1.0.0">jQuery</dependency>
+        -->
+      </dependencies>
+      <components>
+        <component type="JavaScript_Library">
+          <javaScriptLibrary>
+            <libraryName>angular</libraryName>
+            <fileName>angular.min.js</fileName>
+            <preferredScriptLocation>PageHead</preferredScriptLocation>
+            <CDNPath>//ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js</CDNPath>
+            <objectName>P</objectName>
+          </javaScriptLibrary>
+        </component>
+        <component type="JavaScriptFile">
+          <jsfiles>
+            <libraryFolderName>angular</libraryFolderName>
+            <jsfile>
+              <name>angular.min.js</name>
+            </jsfile>
+          </jsfiles>
+        </component>
+		<component type="JavaScript_Library">
+          <javaScriptLibrary>
+            <libraryName>angular-locale</libraryName>
+            <fileName>angular-locale.min.js</fileName>
+            <preferredScriptLocation>PageHead</preferredScriptLocation>            
+            <objectName>P</objectName>
+          </javaScriptLibrary>
+        </component>
+        <component type="JavaScriptFile">
+          <jsfiles>
+            <libraryFolderName>angular-locale</libraryFolderName>
+            <jsfile>
+              <name>angular-locale.min.js</name>
+            </jsfile>
+          </jsfiles>
+        </component>
+		<component type="JavaScript_Library">
+          <javaScriptLibrary>
+            <libraryName>angular-route</libraryName>
+            <fileName>angular-route.min.js</fileName>
+            <preferredScriptLocation>PageHead</preferredScriptLocation>
+            <CDNPath>//raw.githubusercontent.com/angular/bower-angular-route/master/angular-route.min.js</CDNPath>
+            <objectName>P</objectName>
+          </javaScriptLibrary>
+        </component>
+        <component type="JavaScriptFile">
+          <jsfiles>
+            <libraryFolderName>angular-route</libraryFolderName>
+            <jsfile>
+              <name>angular-route.min.js</name>
+            </jsfile>
+          </jsfiles>
+        </component>
+		<component type="JavaScript_Library">
+          <javaScriptLibrary>
+            <libraryName>angular-resource</libraryName>
+            <fileName>angular-resource.min.js</fileName>
+            <preferredScriptLocation>PageHead</preferredScriptLocation>
+            <CDNPath>//raw.githubusercontent.com/angular/bower-angular-resource/master/angular-resource.min.js</CDNPath>
+            <objectName>P</objectName>
+          </javaScriptLibrary>
+        </component>
+        <component type="JavaScriptFile">
+          <jsfiles>
+            <libraryFolderName>angular-resource</libraryFolderName>
+            <jsfile>
+              <name>angular-resource.min.js</name>
+            </jsfile>
+          </jsfiles>
+        </component>
+		<component type="JavaScript_Library">
+          <javaScriptLibrary>
+            <libraryName>angular-sanitize</libraryName>
+            <fileName>angular-sanitize.min.js</fileName>
+            <preferredScriptLocation>PageHead</preferredScriptLocation>
+            <CDNPath>//raw.githubusercontent.com/angular/bower-angular-sanitize/master/angular-sanitize.min.js</CDNPath>
+            <objectName>P</objectName>
+          </javaScriptLibrary>
+        </component>
+        <component type="JavaScriptFile">
+          <jsfiles>
+            <libraryFolderName>angular-sanitize</libraryFolderName>
+            <jsfile>
+              <name>angular-sanitize.min.js</name>
+            </jsfile>
+          </jsfiles>
+        </component>
+		<component type="JavaScript_Library">
+          <javaScriptLibrary>
+            <libraryName>angular-strap</libraryName>
+            <fileName>angular-strap.min.js</fileName>
+            <preferredScriptLocation>PageHead</preferredScriptLocation>
+            <CDNPath>//cdnjs.cloudflare.com/ajax/libs/angular-strap/2.3.8/angular-strap.min.js</CDNPath>
+            <objectName>P</objectName>
+          </javaScriptLibrary>
+        </component>
+        <component type="JavaScriptFile">
+          <jsfiles>
+            <libraryFolderName>angular-strap</libraryFolderName>
+            <jsfile>
+              <name>angular-strap.min.js</name>
+            </jsfile>
+          </jsfiles>
+        </component>
+		<component type="JavaScript_Library">
+          <javaScriptLibrary>
+            <libraryName>angular-strap-tpl</libraryName>
+            <fileName>angular-strap.tpl.min.js</fileName>
+            <preferredScriptLocation>PageHead</preferredScriptLocation>
+            <CDNPath>//cdnjs.cloudflare.com/ajax/libs/angular-strap/2.3.8/angular-strap.tpl.min.js</CDNPath>
+            <objectName>P</objectName>
+          </javaScriptLibrary>
+        </component>
+        <component type="JavaScriptFile">
+          <jsfiles>
+            <libraryFolderName>angular-strap-tpl</libraryFolderName>
+            <jsfile>
+              <name>angular-strap.tpl.min.js</name>
+            </jsfile>
+          </jsfiles>
+        </component>
+		<component type="JavaScript_Library">
+          <javaScriptLibrary>
+            <libraryName>angular-animate</libraryName>
+            <fileName>angular-animate.min.js</fileName>
+            <preferredScriptLocation>PageHead</preferredScriptLocation>
+            <CDNPath>//ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-animate.min.js</CDNPath>
+            <objectName>P</objectName>
+          </javaScriptLibrary>
+        </component>
+        <component type="JavaScriptFile">
+          <jsfiles>
+            <libraryFolderName>angular-animate</libraryFolderName>
+            <jsfile>
+              <name>angular-animate.min.js</name>
+            </jsfile>
+          </jsfiles>
+        </component>
+		<component type="JavaScript_Library">
+          <javaScriptLibrary>
+            <libraryName>angular-aria</libraryName>
+            <fileName>angular-aria.min.js</fileName>
+            <preferredScriptLocation>PageHead</preferredScriptLocation>
+            <CDNPath>//ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-aria.min.js</CDNPath>
+            <objectName>P</objectName>
+          </javaScriptLibrary>
+        </component>
+        <component type="JavaScriptFile">
+          <jsfiles>
+            <libraryFolderName>angular-aria</libraryFolderName>
+            <jsfile>
+              <name>angular-aria.min.js</name>
+            </jsfile>
+          </jsfiles>
+        </component>
+		<component type="JavaScript_Library">
+          <javaScriptLibrary>
+            <libraryName>angular-messages</libraryName>
+            <fileName>angular-messages.min.js</fileName>
+            <preferredScriptLocation>PageHead</preferredScriptLocation>
+            <CDNPath>//ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-messages.min.js</CDNPath>
+            <objectName>P</objectName>
+          </javaScriptLibrary>
+        </component>
+        <component type="JavaScriptFile">
+          <jsfiles>
+            <libraryFolderName>angular-messages</libraryFolderName>
+            <jsfile>
+              <name>angular-messages.min.js</name>
+            </jsfile>
+          </jsfiles>
+        </component>
+		<component type="JavaScript_Library">
+          <javaScriptLibrary>
+            <libraryName>angular-material</libraryName>
+            <fileName>angular-material.min.js</fileName>
+            <preferredScriptLocation>PageHead</preferredScriptLocation>
+            <CDNPath>//ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-material.min.js</CDNPath>
+            <objectName>P</objectName>
+          </javaScriptLibrary>
+        </component>
+        <component type="JavaScriptFile">
+          <jsfiles>
+            <libraryFolderName>angular-material</libraryFolderName>
+            <jsfile>
+              <name>angular-material.min.css</name>
+            </jsfile>
+          </jsfiles>
+        </component>
+		<component type="JavaScriptFile">
+          <jsfiles>
+            <libraryFolderName>angular-material</libraryFolderName>
+            <jsfile>
+              <name>angular-material.min.js</name>
+            </jsfile>
+          </jsfiles>
+        </component>
+		<component type="JavaScript_Library">
+          <javaScriptLibrary>
+            <libraryName>bootstrap-tpls</libraryName>
+            <fileName>ui-bootstrap-tpls.min.js</fileName>
+            <preferredScriptLocation>PageHead</preferredScriptLocation>
+            <CDNPath>//cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/1.3.2/ui-bootstrap-tpls.min.js</CDNPath>
+            <objectName>P</objectName>
+          </javaScriptLibrary>
+        </component>
+        <component type="JavaScriptFile">
+          <jsfiles>
+            <libraryFolderName>bootstrap-tpls</libraryFolderName>
+            <jsfile>
+              <name>ui-bootstrap-tpls.min.js</name>
+            </jsfile>
+          </jsfiles>
+        </component>
+		<component type="JavaScript_Library">
+          <javaScriptLibrary>
+            <libraryName>jquery-footable</libraryName>
+            <fileName>jquery-footable.min.js</fileName>
+            <preferredScriptLocation>PageHead</preferredScriptLocation>
+            <CDNPath>//cdnjs.cloudflare.com/ajax/libs/jquery-footable/3.0.10/footable.min.js</CDNPath>
+            <objectName>P</objectName>
+          </javaScriptLibrary>
+        </component>
+		<component type="JavaScriptFile">
+          <jsfiles>
+            <libraryFolderName>jquery-footable</libraryFolderName>
+            <jsfile>
+              <name>jquery-footable.min.js</name>
+            </jsfile>
+          </jsfiles>
+        </component>
+		<component type="JavaScriptFile">
+          <jsfiles>
+            <libraryFolderName>jquery-footable</libraryFolderName>
+            <jsfile>
+              <name>jquery-footable.min.css</name>
+            </jsfile>
+          </jsfiles>
+        </component>
+		<component type="JavaScript_Library">
+          <javaScriptLibrary>
+            <libraryName>md-data-table</libraryName>
+            <fileName>md-data-table.min.js</fileName>
+            <preferredScriptLocation>PageHead</preferredScriptLocation>
+            <CDNPath>//raw.githubusercontent.com/daniel-nagy/md-data-table/master/dist/md-data-table.min.js</CDNPath>
+            <objectName>P</objectName>
+          </javaScriptLibrary>
+        </component>
+		<component type="JavaScriptFile">
+          <jsfiles>
+            <libraryFolderName>md-data-table</libraryFolderName>
+            <jsfile>
+              <name>md-data-table.min.js</name>
+            </jsfile>
+          </jsfiles>
+        </component>
+		<component type="JavaScriptFile">
+          <jsfiles>
+            <libraryFolderName>md-data-table</libraryFolderName>
+            <jsfile>
+              <name>md-data-table.min.css</name>
+            </jsfile>
+          </jsfiles>
+        </component>
+      <component type="JavaScript_Library">
+          <javaScriptLibrary>
+            <libraryName>angular-recaptcha</libraryName>
+            <fileName>angular-recaptcha.min.js</fileName>
+            <preferredScriptLocation>PageHead</preferredScriptLocation>
+            <CDNPath>//cdnjs.cloudflare.com/ajax/libs/angular-recaptcha/3.2.1/angular-recaptcha.min.js</CDNPath>
+            <objectName>P</objectName>
+          </javaScriptLibrary>
+        </component>
+        <component type="JavaScriptFile">
+          <jsfiles>
+            <libraryFolderName>angular-recaptcha</libraryFolderName>
+            <jsfile>
+              <name>angular-recaptcha.min.js</name>
+            </jsfile>
+          </jsfiles>
+        </component>
+      </components>
+    </package>
+  </packages>
+</dotnetnuke>

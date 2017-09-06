@@ -1,0 +1,555 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Active.Text" xml:space="preserve">
+    <value>Enabled</value>
+  </data>
+  <data name="AddressLine.Text" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="AddressLine2.Text" xml:space="preserve">
+    <value>Second Address</value>
+  </data>
+  <data name="BasicSettings.Text" xml:space="preserve">
+    <value>Basic PLColab.Start Settings</value>
+  </data>
+  <data name="Cancelar.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="City.Text" xml:space="preserve">
+    <value>City</value>
+  </data>
+  <data name="Code.Text" xml:space="preserve">
+    <value>Code</value>
+  </data>
+  <data name="CodeMaxLength.Text" xml:space="preserve">
+    <value>The code field must be up to 50 characters.</value>
+  </data>
+  <data name="CodeRequired.Text" xml:space="preserve">
+    <value>The code field is required</value>
+  </data>
+  <data name="CollapseAll.Text" xml:space="preserve">
+    <value>Collapse All</value>
+  </data>
+  <data name="ConfirmDelete.Text" xml:space="preserve">
+    <value>Are you sure you want to delete this item?</value>
+  </data>
+  <data name="Country.Text" xml:space="preserve">
+    <value>Country</value>
+  </data>
+  <data name="DeleteItem.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Description.Text" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="DigitarDepartamentoCiudad.Text" xml:space="preserve">
+    <value>Do you want to enter department and city?</value>
+  </data>
+  <data name="EditItem.Text" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="EditModule.Text" xml:space="preserve">
+    <value>Add Item</value>
+  </data>
+  <data name="Enabled.Text" xml:space="preserve">
+    <value>Enabled</value>
+  </data>
+  <data name="Finalizar.Text" xml:space="preserve">
+    <value>Finalize</value>
+  </data>
+  <data name="Finish.Text" xml:space="preserve">
+    <value>Finish</value>
+  </data>
+  <data name="Fiscal.Text" xml:space="preserve">
+    <value>Tax</value>
+  </data>
+  <data name="Folios.Text" xml:space="preserve">
+    <value>Folios</value>
+  </data>
+  <data name="Guardar.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Imprimible.Text" xml:space="preserve">
+    <value>Printable</value>
+  </data>
+  <data name="InactivationReason.Text" xml:space="preserve">
+    <value>Inactivating reason.</value>
+  </data>
+  <data name="incripcionFinalizada.Text" xml:space="preserve">
+    <value>Congratulations you have been completed the registration process.</value>
+  </data>
+  <data name="InvalidCode.Text" xml:space="preserve">
+    <value>The entered value contains special characters or blanks.</value>
+  </data>
+  <data name="Logo.Text" xml:space="preserve">
+    <value>Logo</value>
+  </data>
+  <data name="Name.Text" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="NameMaxLength.Text" xml:space="preserve">
+    <value>The name field must be up to 100 characters.</value>
+  </data>
+  <data name="NameRequired.Text" xml:space="preserve">
+    <value>The name field is required.</value>
+  </data>
+  <data name="Neighborhood.Text" xml:space="preserve">
+    <value>Neighborhood</value>
+  </data>
+  <data name="New.Text" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="NoReferenciaExterna.Text" xml:space="preserve">
+    <value>External reference number.</value>
+  </data>
+  <data name="PostalCode.Text" xml:space="preserve">
+    <value>Postal Code</value>
+  </data>
+  <data name="Proceso.Text" xml:space="preserve">
+    <value>Processes</value>
+  </data>
+  <data name="Recurrente.Text" xml:space="preserve">
+    <value>Recurrent</value>
+  </data>
+  <data name="Region.Text" xml:space="preserve">
+    <value>Departament</value>
+  </data>
+  <data name="RequireApproval.Text" xml:space="preserve">
+    <value>Requires approval</value>
+  </data>
+  <data name="RequiredFields.Text" xml:space="preserve">
+    <value>Fields marked with red are required.</value>
+  </data>
+  <data name="Sucursal.Text" xml:space="preserve">
+    <value>Branches</value>
+  </data>
+  <data name="Template.Text" xml:space="preserve">
+    <value>Template</value>
+  </data>
+  <data name="TemplateRequired.Text" xml:space="preserve">
+    <value>The template field is required</value>
+  </data>
+  <data name="VALIDATION_ADDCOMPANYBUYERCOMMAND_EXTERNALREFERENCE.Text" xml:space="preserve">
+    <value>The entered value contains special characters.</value>
+  </data>
+  <data name="AcuerdoRequired.Text" xml:space="preserve">
+    <value>The agreement field is required</value>
+  </data>
+  <data name="Barrio.Text" xml:space="preserve">
+    <value>Neighborhood</value>
+  </data>
+  <data name="BarrioRequired.Text" xml:space="preserve">
+    <value>The neighborhood  field is required.</value>
+  </data>
+  <data name="Cancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="CategoriaFiscal.Text" xml:space="preserve">
+    <value>Tax category</value>
+  </data>
+  <data name="CategoriaFiscalRequired.Text" xml:space="preserve">
+    <value>The tax category field is required.</value>
+  </data>
+  <data name="CertificarAcuerdoParaExpedicion.Text" xml:space="preserve">
+    <value>Certify agreement for the expedition</value>
+  </data>
+  <data name="CityRequired.Text" xml:space="preserve">
+    <value>The city field is required. </value>
+  </data>
+  <data name="Ciudad.Text" xml:space="preserve">
+    <value>City </value>
+  </data>
+  <data name="CiudadRequired.Text" xml:space="preserve">
+    <value>The city field is required.</value>
+  </data>
+  <data name="CodigoPostal.Text" xml:space="preserve">
+    <value>Postal code</value>
+  </data>
+  <data name="ConstitucionLegal.Text" xml:space="preserve">
+    <value>Legal constitution</value>
+  </data>
+  <data name="DatosGenerales.Text" xml:space="preserve">
+    <value>General information </value>
+  </data>
+  <data name="Departamento.Text" xml:space="preserve">
+    <value>Department</value>
+  </data>
+  <data name="DigitarDepartamentoCiudad.Text1" xml:space="preserve">
+    <value>Do you want to enter department and city?</value>
+  </data>
+  <data name="DigitoVerificacion.Text" xml:space="preserve">
+    <value>Verification code.</value>
+  </data>
+  <data name="DigitoVerificacionRequired.Text" xml:space="preserve">
+    <value>The field verification code is required</value>
+  </data>
+  <data name="Direccion.Text" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="Direccion2.Text" xml:space="preserve">
+    <value>Second address</value>
+  </data>
+  <data name="DireccionRequired.Text" xml:space="preserve">
+    <value>El campo dirección es obligatorio.</value>
+  </data>
+  <data name="Divipol.Text" xml:space="preserve">
+    <value>Divipol</value>
+  </data>
+  <data name="Edit.Text" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="EmailReciboFacturas.Text" xml:space="preserve">
+    <value>Email for invoice reception</value>
+  </data>
+  <data name="EmailReciboFacturasOnlyEmail.Text" xml:space="preserve">
+    <value>The field only accepts e-mail addresses.</value>
+  </data>
+  <data name="EmailReciboFacturasRequired.Text" xml:space="preserve">
+    <value>The email for invoice reception is required.</value>
+  </data>
+  <data name="EstadoFolio.Text" xml:space="preserve">
+    <value>State</value>
+  </data>
+  <data name="FechaAcuerdo.Text" xml:space="preserve">
+    <value>Agreement date</value>
+  </data>
+  <data name="Folio.Text" xml:space="preserve">
+    <value>Folio</value>
+  </data>
+  <data name="FolioActivo.Text" xml:space="preserve">
+    <value>Enabled</value>
+  </data>
+  <data name="FolioFinalMayorFolioInicial.Text" xml:space="preserve">
+    <value>The end consecutive can not be less than the start consecutive.</value>
+  </data>
+  <data name="NoExisteAcuerdoConCliente.Text" xml:space="preserve">
+    <value>There is no agreement with the customer</value>
+  </data>
+  <data name="NombreComercial.Text" xml:space="preserve">
+    <value>Trade name</value>
+  </data>
+  <data name="NombreComercialRequired.Text" xml:space="preserve">
+    <value>The trade name field is required.</value>
+  </data>
+  <data name="NumeroAprobacion.Text" xml:space="preserve">
+    <value>Resolution</value>
+  </data>
+  <data name="NumeroAprobacionInvalidoMensaje.Text" xml:space="preserve">
+    <value>The entered value contains special characters.</value>
+  </data>
+  <data name="NumeroDesde.Text" xml:space="preserve">
+    <value>Start folio</value>
+  </data>
+  <data name="NumeroHasta.Text" xml:space="preserve">
+    <value>End folio</value>
+  </data>
+  <data name="NumeroIdentificacion.Text" xml:space="preserve">
+    <value>ID number</value>
+  </data>
+  <data name="NumIdentificacionRequired.Text" xml:space="preserve">
+    <value>The ID number field is required</value>
+  </data>
+  <data name="Pais.Text" xml:space="preserve">
+    <value>Country</value>
+  </data>
+  <data name="PaisRequired.Text" xml:space="preserve">
+    <value>The country field is required</value>
+  </data>
+  <data name="PersonaJuridica.Text" xml:space="preserve">
+    <value>Legal person</value>
+  </data>
+  <data name="PersonaNatural.Text" xml:space="preserve">
+    <value>Natural person</value>
+  </data>
+  <data name="Prefijo.Text" xml:space="preserve">
+    <value>Prefix</value>
+  </data>
+  <data name="PrefijoInvalidoMensaje.Text" xml:space="preserve">
+    <value>The entered value contains special characters.</value>
+  </data>
+  <data name="PrimerApellido.Text" xml:space="preserve">
+    <value>First surname</value>
+  </data>
+  <data name="PrimerApellidoRequired.Text" xml:space="preserve">
+    <value>The first surname field is required</value>
+  </data>
+  <data name="primerNombre.Text" xml:space="preserve">
+    <value>First name</value>
+  </data>
+  <data name="primerNombreRequired.Text" xml:space="preserve">
+    <value>The first name field is required</value>
+  </data>
+  <data name="RazonSocial.Text" xml:space="preserve">
+    <value>Business name</value>
+  </data>
+  <data name="RazonSocialRequired.Text" xml:space="preserve">
+    <value>The business name field is required</value>
+  </data>
+  <data name="RefExterna.Text" xml:space="preserve">
+    <value>External reference</value>
+  </data>
+  <data name="Save.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="SegundoApellido.Text" xml:space="preserve">
+    <value>Second surname</value>
+  </data>
+  <data name="SegundoNombre.Text" xml:space="preserve">
+    <value>Second name</value>
+  </data>
+  <data name="SolicitarAcuerdoExpedicionAcepFacturas.Text" xml:space="preserve">
+    <value>Request Agreement for the issue and acceptance of Electronic Invoices</value>
+  </data>
+  <data name="Telefonos.Text" xml:space="preserve">
+    <value>Telephone number</value>
+  </data>
+  <data name="TipoDocumento.Text" xml:space="preserve">
+    <value>Document type</value>
+  </data>
+  <data name="TipoDocumentoFactura.Text" xml:space="preserve">
+    <value>Invoice</value>
+  </data>
+  <data name="TipoDocumentoFacturaContingencia.Text" xml:space="preserve">
+    <value>Contingency invoice</value>
+  </data>
+  <data name="TipoIdentificacion.Text" xml:space="preserve">
+    <value>ID type</value>
+  </data>
+  <data name="TipoIdentificacionRequired.Text" xml:space="preserve">
+    <value>The ID type field is required.</value>
+  </data>
+  <data name="UK_IdentificationNumber.Text" xml:space="preserve">
+    <value>Already exists a customer with the same identification number.</value>
+  </data>
+  <data name="UK_NITNumber.Text" xml:space="preserve">
+    <value>Already exists a customer with the same identification number.</value>
+  </data>
+  <data name="VALIDATION_ADDCOMPANYBUYERCOMMAND_VERIFICATIONDIGIT.Text" xml:space="preserve">
+    <value>The verification code is not correct.</value>
+  </data>
+  <data name="ValidoDesde.Text" xml:space="preserve">
+    <value>Valid from</value>
+  </data>
+  <data name="ValidoHasta.Text" xml:space="preserve">
+    <value>Valid until</value>
+  </data>
+  <data name="ValidoHastaMayorValodDesde.Text" xml:space="preserve">
+    <value>The valid until field it can not be less than valid from.</value>
+  </data>
+  <data name="noValidExtention.Text" xml:space="preserve">
+    <value>The selected file contains an invalid extension. It allows extensions .jpg, .img, .png.</value>
+  </data>
+  <data name="Rango.Text" xml:space="preserve">
+    <value>Range</value>
+  </data>
+  <data name="Anterior.Text" xml:space="preserve">
+    <value>Previous</value>
+  </data>
+  <data name="ayudaInicio.Text" xml:space="preserve">
+    <value>Now you can perform basic configuration of your account quickly and have greater control over their business. Then enter your billing numbers, branches of your company, business processes, and the logo you want to manage.</value>
+  </data>
+  <data name="CaracteresErrorHint.Text" xml:space="preserve">
+    <value>Does not accept special characters, only hyphen and underscore.</value>
+  </data>
+  <data name="CaracteresHint.Text" xml:space="preserve">
+    <value>Only accepts alphanumeric values, hyphen and underscore.</value>
+  </data>
+  <data name="FelicitacionesMiembroSitio.Text" xml:space="preserve">
+    <value>Congratulations, you are now a member of our site.</value>
+  </data>
+  <data name="Numeraciones.Text" xml:space="preserve">
+    <value>Enumerations</value>
+  </data>
+  <data name="PrimerosPasos.Text" xml:space="preserve">
+    <value>FIRSTS STEPS TO SET UP YOUR ACCOUNT</value>
+  </data>
+  <data name="Remover.Text" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="Siguiente.Text" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="Subir.Text" xml:space="preserve">
+    <value>Upload</value>
+  </data>
+  <data name="ArchivoSubidoOk.Text" xml:space="preserve">
+    <value>File uploaded successfully.</value>
+  </data>
+  <data name="SeleccioneArchivo.Text" xml:space="preserve">
+    <value>Select the file you want to attach.</value>
+  </data>
+  <data name="Delete.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Of.Text" xml:space="preserve">
+    <value>Of</value>
+  </data>
+  <data name="Page.Text" xml:space="preserve">
+    <value>Page</value>
+  </data>
+  <data name="RecordPage.Text" xml:space="preserve">
+    <value>Files per row</value>
+  </data>
+  <data name="TitleProccess.Text" xml:space="preserve">
+    <value>Processes</value>
+  </data>
+  <data name="TitleBranch.Text" xml:space="preserve">
+    <value>Branches</value>
+  </data>
+  <data name="Close.Text" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="Nodata.Text" xml:space="preserve">
+    <value>No records to show.</value>
+  </data>
+  <data name="ActivateStamper.Text" xml:space="preserve">
+    <value>Activate time stamp</value>
+  </data>
+  <data name="DatosEstampadora.Text" xml:space="preserve">
+    <value>Estampadoras</value>
+  </data>
+  <data name="DatosPush.Text" xml:space="preserve">
+    <value>Push</value>
+  </data>
+  <data name="Url.Text" xml:space="preserve">
+    <value>Url</value>
+  </data>
+  <data name="User.Text" xml:space="preserve">
+    <value>User name</value>
+  </data>
+  <data name="Activo.Text" xml:space="preserve">
+    <value>Activo</value>
+  </data>
+  <data name="Cartera.Text" xml:space="preserve">
+    <value>Cartera</value>
+  </data>
+  <data name="Desactivado.Text" xml:space="preserve">
+    <value>Desactivo</value>
+  </data>
+  <data name="PadreInfo.Text" xml:space="preserve">
+    <value>Parente of tenant</value>
+  </data>
+  <data name="Buscar.Text" xml:space="preserve">
+    <value>Buscar</value>
+  </data>
+  <data name="Limpiar.Text" xml:space="preserve">
+    <value>Limpiar</value>
+  </data>
+</root>
