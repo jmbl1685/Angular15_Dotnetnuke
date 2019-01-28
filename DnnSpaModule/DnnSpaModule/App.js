@@ -10,7 +10,7 @@ angular
       })
       .when("/about", {
         templateUrl: "/DesktopModules/DnnSpaModule/Partials/About.html",
-        controller: "HomeController"
+        controller: "AboutController"
       })
       .otherwise({ redirectTO: "/" });
 
@@ -20,8 +20,6 @@ angular
     });
   });
 
-("use strict");
-
-const modules = ["appRoutes", "HomeController"];
+const modules = ["appRoutes", "HomeController", "AboutController"];
 
 angular.module("myApp", modules).config(function() {});

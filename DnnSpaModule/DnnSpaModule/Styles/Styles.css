@@ -1,0 +1,10 @@
+﻿@import url(https://fonts.googleapis.com/css?family=Niramit);
+
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
