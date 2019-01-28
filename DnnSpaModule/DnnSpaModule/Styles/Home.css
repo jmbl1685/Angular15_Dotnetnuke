@@ -1,0 +1,25 @@
+﻿@import url(https://fonts.googleapis.com/css?family=Niramit);
+
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    background: url(https://demo.w3layouts.com/demos_new/template_demo/03-01-2019/employment-demo_Free/145375462/web/images/1.jpg) no-repeat center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+}
+
+.title h1 {
+    color: white !important;
+    font-family: Niramit;
+}
+
+.title span {
+    font-weight: normal;
+}

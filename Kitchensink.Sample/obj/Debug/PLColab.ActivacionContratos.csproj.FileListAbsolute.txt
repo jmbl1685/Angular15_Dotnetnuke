@@ -1,5 +1,0 @@
-C:\TFS1\PLColab\Web\1Dev\PLColab.ActivacionContratos\bin\_BorrarTemp.PLColab.ActivacionContratos.dll.config
-C:\TFS1\PLColab\Web\1Dev\PLColab.ActivacionContratos\bin\_BorrarTemp.PLColab.ActivacionContratos.dll
-C:\TFS1\PLColab\Web\1Dev\PLColab.ActivacionContratos\bin\_BorrarTemp.PLColab.ActivacionContratos.pdb
-C:\TFS1\PLColab\Web\1Dev\PLColab.ActivacionContratos\obj\Debug\_BorrarTemp.PLColab.ActivacionContratos.dll
-C:\TFS1\PLColab\Web\1Dev\PLColab.ActivacionContratos\obj\Debug\_BorrarTemp.PLColab.ActivacionContratos.pdb

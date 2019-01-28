@@ -1,20 +1,29 @@
 # DNN Module AngularJS v1.6.9
 
 ## Scripts
-* Library [angular.min.js v1.6.9] https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js
-* Routing [angular-route.min.js v1.6.6] https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular-route.min.js
+
+- Library [angular.min.js v1.6.9] https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js
+- Routing [angular-route.min.js v1.6.6] https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular-route.min.js
 
 ## Edit DNN Site
 
 File: Default.aspx
 
-* Change - head tag html
+- Change - head tag html
+
 ```cs
     <script src="/Resources/Shared/Scripts/angular.min.js" type="text/javascript"></script>
     <script src="/Resources/Shared/Scripts/angular-route.min.js"></script>
 ```
 
-* Result
+- Change - body tag html
+
+```cs
+    <body ng-app="myApp" id="Body" runat="server">...</body>
+```
+
+- Result
+
 ```cs
 <%@ Page Language="C#" AutoEventWireup="True" Inherits="DotNetNuke.Framework.DefaultPage" CodeBehind="Default.aspx.cs" %>
 <%@ Register TagPrefix="dnncrm" Namespace="DotNetNuke.Web.Client.ClientResourceManagement" Assembly="DotNetNuke.Web.Client" %>
@@ -32,7 +41,7 @@ File: Default.aspx
     <meta id="MetaCopyright" runat="Server" name="COPYRIGHT" Visible="False"/>
     <meta id="MetaGenerator" runat="Server" name="GENERATOR" Visible="False"/>
     <meta id="MetaAuthor" runat="Server" name="AUTHOR" Visible="False"/>
-    <meta id="MetaRobots" runat="server" name="ROBOTS" Visible="False" />    
+    <meta id="MetaRobots" runat="server" name="ROBOTS" Visible="False" />
     <asp:PlaceHolder runat="server" ID="ClientDependencyHeadCss"></asp:PlaceHolder>
     <asp:PlaceHolder runat="server" ID="ClientDependencyHeadJs"></asp:PlaceHolder>
     <asp:placeholder id="CSS" runat="server" />
