@@ -1,5 +1,11 @@
 # DNN Module AngularJS v1.6.9
 
+#### Preview.
+
+<p align="center"><br />
+  <img src="https://i.ibb.co/FKBfmYp/dnn-gif.gif" />
+</p>
+
 ## Scripts
 
 - Library [angular.min.js v1.6.9] https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js
