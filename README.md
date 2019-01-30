@@ -1,4 +1,4 @@
-# DNN Module AngularJS v1.6.9
+# DNN Module Angular.js
 
 #### Preview.
 
