@@ -17,19 +17,6 @@
       </dependencies>
       <components>
         <component type="Script">
-          <scripts>
-            <basePath>DesktopModules\DnnSpaModule</basePath>
-            <script type="Install">
-              <path>Providers\DataProviders\SqlDataProvider</path>
-              <name>00.00.01.SqlDataProvider</name>
-              <version>00.00.01</version>
-            </script>
-            <script type="UnInstall">
-              <path>Providers\DataProviders\SqlDataProvider</path>
-              <name>Uninstall.SqlDataProvider</name>
-              <version>00.00.01</version>
-            </script>
-          </scripts>
         </component>
         <component type="ResourceFile">
           <resourceFiles>
